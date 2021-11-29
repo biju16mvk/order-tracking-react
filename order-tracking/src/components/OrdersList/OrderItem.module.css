@@ -1,0 +1,22 @@
+.order-item {
+    padding: 10px;
+    font-size: 13px;
+    margin-top:20px;
+}
+
+.order-item p {
+    margin: 0;
+}
+
+.order-item__wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.order-item__address__wrapper {
+    margin-top: 20px;
+}
+
+.order-item__data {
+    font-weight: bold;
+}

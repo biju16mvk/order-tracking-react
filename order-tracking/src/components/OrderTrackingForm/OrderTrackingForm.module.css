@@ -1,0 +1,47 @@
+.order-tracking-form {
+    padding: 10px 15px 30px;
+}
+
+.order-tracking-form__form {
+    display: flex;
+    flex-direction: column;
+}
+
+.order-tracking-form input{
+   background: #F0F0F0;
+   border-radius: 5px;
+   height: 35px;
+   border: 0;
+}
+
+.order-tracking-form input:focus {
+    outline: none;
+}
+
+.order-tracking-form input.invalid{
+    border: 1px solid red;
+ }
+
+.order-tracking-form label{
+    font-size: 13px;
+ }
+
+.order-tracking-form button{
+    background: #000C41;
+    border-radius: 5px;
+    color: #FFF;
+    padding: 10px 0;
+    margin-top:30px;
+    border: none;
+    cursor: pointer;
+ }
+
+button:disabled,
+button:focus:disabled,
+button:hover:disabled,
+button:active:disabled {
+  background: #ccc;
+  border-color: #ccc;
+  color: #666666;
+  cursor: not-allowed;
+}

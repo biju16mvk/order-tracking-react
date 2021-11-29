@@ -1,0 +1,19 @@
+.card {
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+  }
+  
+.order-tracking-form-card {
+    width: 300px;
+    margin: 150px auto;
+}
+
+.orders-list-card {
+  width: 400px;
+  margin: 150px auto;
+}
+
+.orders-data-card {
+  width: 350px;
+  margin: 0 auto;
+}

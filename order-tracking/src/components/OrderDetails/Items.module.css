@@ -1,0 +1,21 @@
+.order-details__articles__data {
+    display: flex;
+    margin-top:10px;
+    font-size: 13px;
+}
+
+.order-details__articles__data__img {
+    width: 35px;
+    height: 35px;
+    margin: 0 15px;
+    object-fit: contain;
+}
+
+.order-details__articles__data__num {
+    font-size: 9px;
+    color: grey;
+}
+
+.order-details__data {
+    font-weight: bold;
+}
