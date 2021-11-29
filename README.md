@@ -14,7 +14,7 @@ This will install all the required dependencies.
 
 ### `npm start`
 
-This command will open the application in yiur default browser.
+This command will open the application in your default browser.
 
 ## Dependencies
 
