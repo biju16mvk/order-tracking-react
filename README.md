@@ -24,4 +24,4 @@ To make this app work we need a BE server that serves data for our application. 
 ### `npm install`
 ### `npm run dev`
 
-This will spin up a backend sever that runs in port 6060. You can change this port to the one you want, but make sure to uodate the same in the FE application.
+This will spin up a backend sever that runs in port 6060. You can change this port to the one you want, but make sure to update the same in the `constants.js` file of FE application.
