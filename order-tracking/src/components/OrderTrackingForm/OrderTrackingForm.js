@@ -1,10 +1,10 @@
 import React, { useState, useEffect } from "react";
 import { useNavigate } from "react-router-dom";
 
+import { EMAIL_REGEX, ORDER_TRACKING_API } from "../../shared/constants";
 import Card from "../UI/Card/Card";
 import classes from "./OrderTrackingForm.module.css";
 
-const EMAIL_REGEX = /^[a-zA-Z0-9]+@[a-zA-Z0-9]+\.[A-Za-z]+$/;
 const OrderTrackingForm = () => {
   const [email, setEmail] = useState("");
   const [formIsValid, setFormIsValid] = useState(false);
@@ -26,7 +26,7 @@ const OrderTrackingForm = () => {
 
   const submitHandler = event => {
     event.preventDefault();
-    fetch(`http://localhost:6060/orders?email=${email}`)
+    fetch(`${ORDER_TRACKING_API}?email=${email}`)
       .then(res => res.json())
       .then(data => {
         navigate("/orders", { state: data });
