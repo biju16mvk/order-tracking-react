@@ -7,7 +7,7 @@ This is a small order tracking app developed using the React JS framework. To ru
 
 ## To run this app run the following commands
 
-### `cd order-tracking`
+### `cd order-tracking-react/order-tracking`
 ### `npm install`
 
 This will install all the required dependencies.
